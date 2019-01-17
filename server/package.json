@@ -1,0 +1,15 @@
+{
+  "name": "docker-compose-engine-1",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "app.js",
+  "repository": "https://github.com/fajarkarim/docker-compose-engine-1.git",
+  "author": "Fajar Abdul Karim <fajarkarim@qlue.id>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

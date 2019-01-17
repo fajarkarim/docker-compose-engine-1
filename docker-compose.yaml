@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  server:
+    build: "./server"
+    image: "backend"
+    volumes:
+      - "./server:/user/src/app"
+    ports:
+      - 4000:8080
+  client:
+    build: "./client"
+    image: "frontend"
+    ports:
+      - 4001:80
